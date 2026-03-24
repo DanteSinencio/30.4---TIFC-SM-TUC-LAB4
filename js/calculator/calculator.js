@@ -8,7 +8,7 @@ const subtract = function(a, b) {
 
 function divide(a, b){
   if (b === 0) {
-    return "Cannot divide by zero";
+    return "no se puede dividir entre 0";
   }
   return a / b;
 }
