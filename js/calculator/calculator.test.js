@@ -35,3 +35,7 @@ test('multiply 3 * 4 to equal 12', () => {
 test('multiply -2 * 5 to equal -10', () => {
   expect(calculator.multiply(-2, 5)).toBe(-10);
 });
+
+test('divide by zero should return error message', () => {
+  expect(calculator.divide(10, 0)).toBe("Cannot divide by zero");
+});
